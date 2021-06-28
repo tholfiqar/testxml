@@ -1,0 +1,92 @@
+﻿<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+  <pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+    <pkg:xmlData>
+      <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+        <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+      </Relationships>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+    <pkg:xmlData>
+      <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+        <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+      </Relationships>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
+    <pkg:xmlData>
+      <w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+        <w:body>
+			<w:sdt>
+				<w:sdtPr>
+					<w:rPr>
+						<w:rFonts w:hint="cs"/>
+					</w:rPr>
+					<w:alias w:val="MyTitle"/>
+					<w:tag w:val="MyTag"/>
+					<w:id w:val="-770306193"/>
+					<w:placeholder>
+						<w:docPart w:val="259397117B6244FCB457F580BF292B31"/>
+					</w:placeholder>
+					<w:temporary/>
+					<w:showingPlcHdr/>
+					<w15:color w:val="00FF00"/>
+					<w:dropDownList>
+						<w:listItem w:displayText="OptionName" w:value="OptionValue"/>
+						<w:listItem w:displayText="OptionName2" w:value="OptionValue2"/>
+					</w:dropDownList>
+				</w:sdtPr>
+				<w:sdtEndPr>
+					<w:rPr>
+						<w:rStyle w:val="DefaultParagraphFont"/>
+						<w:lang w:bidi="ar-AE"/>
+					</w:rPr>
+				</w:sdtEndPr>
+				<w:sdtContent>
+					<w:p  w:rsidR="00A53719" w:rsidRDefault="00A53719" w:rsidP="00F624E9">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:bidi="ar-AE"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r w:rsidRPr="00805992">
+							<w:rPr>
+								<w:rStyle w:val="PlaceholderText"/>
+								<w:color w:val="auto"/>
+							</w:rPr>
+							<w:t>Choose an item.</w:t>
+						</w:r>
+					</w:p>
+				</w:sdtContent>
+			</w:sdt>
+        </w:body>
+      </w:document>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/word/styles.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml">
+    <pkg:xmlData>
+      <w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" >
+        <w:style w:type="paragraph" w:styleId="Heading1">
+          <w:name w:val="heading 1"/>
+          <w:basedOn w:val="Normal"/>
+          <w:next w:val="Normal"/>
+          <w:link w:val="Heading1Char"/>
+          <w:uiPriority w:val="9"/>
+          <w:qFormat/>
+          <w:pPr>
+            <w:keepNext/>
+            <w:keepLines/>
+            <w:spacing w:before="240" w:after="0" w:line="259" w:lineRule="auto"/>
+            <w:outlineLvl w:val="0"/>
+          </w:pPr>
+          <w:rPr>
+            <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+            <w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+            <w:sz w:val="32"/>
+            <w:szCs w:val="32"/>
+          </w:rPr>
+        </w:style>
+      </w:styles>
+    </pkg:xmlData>
+  </pkg:part>
+ </pkg:package>
